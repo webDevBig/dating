@@ -488,7 +488,6 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 30px;
 }
 
 .footer-menu a {
@@ -643,6 +642,9 @@ footer {
     padding: 34px 50px;
     margin: 135px 0 0;
     justify-content: space-between;
+  }
+  .footer-menu {
+    gap: 30px;
   }
 }
 
