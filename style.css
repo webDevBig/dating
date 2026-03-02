@@ -809,4 +809,8 @@ footer {
     padding: 30px 20px 20px;
     gap: 20px;
   }
+  .footer-menu {
+    justify-content: space-between;
+    width: 100%;
+  }
 }
