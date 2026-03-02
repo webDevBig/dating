@@ -536,7 +536,8 @@ footer {
   .sub-menu {
     position: absolute;
     top: calc(100% + 24px);
-    left: -60%;
+    left: 50%;
+    transform: translateX(-50%);
     width: 190px;
     border-radius: 12px;
     padding: 20px 14px;
@@ -551,6 +552,9 @@ footer {
 
     display: none;
     min-width: 190px;
+  }
+  .header-menu li:last-of-type .sub-menu {
+    left: 0;
   }
 
   .has-sub.active .sub-menu {
