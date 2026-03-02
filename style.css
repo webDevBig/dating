@@ -169,7 +169,7 @@ header::before {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 25px 0;
+  padding: 30px 0;
   counter-reset: cardCounter;
 }
 
@@ -187,9 +187,11 @@ header::before {
   font-size: 16px;
   text-align: center;
 }
-
 .best-section h2 {
   font-weight: 600;
+}
+.cards-section h2 span {
+  font-size: 14px;
 }
 
 .card {
@@ -560,7 +562,7 @@ footer {
   }
 
   .section-hero {
-    padding: 100px 0 70px;
+    padding: 50px 0;
   }
 
   .section-hero h1 {
@@ -570,7 +572,7 @@ footer {
   .section-hero p {
     font-size: 22px;
     line-height: 30px;
-    padding: 54px 0 80px;
+    padding: 50px 0 55px;
   }
 
   .section-hero ul {
@@ -583,10 +585,13 @@ footer {
   }
 
   .cards-section h2 {
-    font-size: 18px;
+    font-size: 20px;
     width: 100%;
     max-width: 1040px;
     text-align: left;
+  }
+  .cards-section h2 span {
+    font-size: 16px;
   }
 
   .card {
@@ -741,7 +746,7 @@ footer {
   .section-hero {
     flex-direction: column;
     align-items: center;
-    padding: 60px 0px;
+    padding: 50px 0px;
   }
 
   .section-hero h1 {
@@ -797,7 +802,7 @@ footer {
   }
 
   .faq-header h2 {
-    font-size: 22px;
+    font-size: 24px;
     padding: 25px 0;
   }
 
