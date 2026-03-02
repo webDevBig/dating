@@ -802,7 +802,9 @@ footer {
   .accordion {
     padding: 0 17px;
   }
-
+  .tab label::after {
+    top: 5px;
+  }
   footer {
     margin: 40px 0 0;
     flex-direction: column-reverse;
